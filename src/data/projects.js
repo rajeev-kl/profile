@@ -12,38 +12,6 @@ export const PROJECTS = [
     tech: ['C++20', 'ENet', 'Jolt Physics', 'GLSL', 'Raylib'],
   },
   {
-    title: 'Bookworm',
-    period: 'Razonica',
-    summary: 'Multi-tenant AI RAG platform with streaming conversational agents.',
-    highlights: [
-      'React canvas frontend (PixelForge) with Django backend (DataSmith).',
-      'LangGraph pipeline streaming real-time status and completions over SSE.',
-      'Multi-tenant architecture with pgvector-indexed semantic search.',
-    ],
-    tech: ['React', 'Django', 'LangGraph', 'LlamaIndex', 'pgvector', 'SSE'],
-  },
-  {
-    title: 'Fashion Intelligence Engine',
-    period: 'Razonica',
-    summary: 'Merchandiser decision-support system with AI design brief generation.',
-    highlights: [
-      'Aggregated internal sales and inventory with external competitor pricing.',
-      'AI Design Brief Generator reconstructing product specs and images from attribute taxonomies.',
-    ],
-    tech: ['Python', 'Django', 'AI', 'ETL'],
-  },
-  {
-    title: 'VerifAI',
-    period: 'Contract',
-    summary: 'AI Toolkit for automated API testing and test generation.',
-    highlights: [
-      'Secure multi-model AI gateway (OpenAI, Azure, Anthropic, Google).',
-      'Postman ingestion and AI-assisted test generation with background processing.',
-      'Deployed to Oracle Cloud with zero-downtime release procedures.',
-    ],
-    tech: ['Django', 'DRF', 'Oracle Cloud', 'OpenAI', 'Gemini'],
-  },
-  {
     title: 'Oracle Cloud Infrastructure',
     period: 'DevOps Toolkit',
     summary: 'Multi-environment production provisioning framework with Ansible.',
@@ -53,16 +21,6 @@ export const PROJECTS = [
       'Scripted playbooks for Nginx config syncing, TLS updates, and PostgreSQL security.',
     ],
     tech: ['Ansible', 'Oracle Cloud', 'Docker', 'Nginx', 'GitHub Actions'],
-  },
-  {
-    title: 'ComBuyn',
-    period: 'Contract',
-    summary: 'Multi-vendor e-commerce & service booking platform.',
-    highlights: [
-      'Dual payment gateway integration with idempotency and webhook reconciliation.',
-      'Order-state transitions modeled with django-fsm for auditability.',
-    ],
-    tech: ['Django', 'DRF', 'PostgreSQL', 'Redis', 'Payment Gateways'],
   },
   {
     title: 'GTorq',
@@ -87,5 +45,29 @@ export const PROJECTS = [
       'Uses macOS AXUIElement accessibility APIs — no private APIs.',
     ],
     tech: ['Swift', 'macOS', 'Accessibility APIs'],
+  },
+  {
+    title: 'SignalWarden',
+    period: 'Personal Project',
+    summary: 'FastAPI-based SMS gateway powered by a Raspberry Pi 4 and SIMCom A7670C modem.',
+    highlights: [
+      'REST API (POST /send-sms/) with API key authentication and hashed key storage.',
+      'AT-command modem control with configurable timeouts and port settings.',
+      'SQLite-based logging of all send attempts for audit and debugging.',
+      'Poetry-managed Python project with systemd service integration for production.',
+    ],
+    tech: ['Python', 'FastAPI', 'Raspberry Pi', 'SQLite', 'AT Commands', 'systemd'],
+  },
+  {
+    title: 'bulk-email-sender',
+    period: 'Personal Project',
+    summary: 'Django management command for sending bulk emails with round-robin sender rotation.',
+    highlights: [
+      'JSON-driven bulk email dispatch via Django management command.',
+      'Round-robin sender pool with per-domain SMTP profile selection.',
+      'Dry-run mode for testing before actual delivery.',
+      'Poetry-managed Django project with django-extensions.',
+    ],
+    tech: ['Python', 'Django', 'SMTP', 'Poetry'],
   },
 ];
