@@ -64,4 +64,28 @@ export const PROJECTS = [
     ],
     tech: ['Django', 'DRF', 'PostgreSQL', 'Redis', 'Payment Gateways'],
   },
+  {
+    title: 'GTorq',
+    period: 'Personal Project',
+    summary: 'Alembic-free migration tool for SQLModel with a Django-style CLI.',
+    highlights: [
+      'Auto-detects model/column create and delete from SQLModel metadata diffs.',
+      'Generates Python migration files with forward and rollback support.',
+      'Tracks migration progress in a database table with per-operation status.',
+      'Django-style CLI: makemigrations, migrate, showmigrations.',
+    ],
+    tech: ['Python', 'SQLModel', 'SQLAlchemy', 'Poetry', 'CLI'],
+  },
+  {
+    title: 'Aqueduct',
+    period: 'Personal Project',
+    summary: 'Lightweight macOS window manager with dynamic grid layouts and workspace snapshots.',
+    highlights: [
+      'Dynamic screen-adaptive grid layout with configurable rows (Ripples) and columns (Channels).',
+      'Workspace Snapshots — capture and restore window layouts with one click.',
+      'Global hotkeys for snap, maximize, center/float, and cross-monitor moves.',
+      'Uses macOS AXUIElement accessibility APIs — no private APIs.',
+    ],
+    tech: ['Swift', 'macOS', 'Accessibility APIs'],
+  },
 ];
