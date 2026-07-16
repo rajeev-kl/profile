@@ -1,5 +1,34 @@
 export const EXPERIENCE = [
   {
+    company: 'ZeroTo1',
+    role: 'Lead Software Engineer',
+    period: 'Apr 2026 – Present',
+    description: 'Applied AI for the Mid-Market. Client: FrequentFan — Credit card and loyalty points for sports and entertainment.',
+    highlights: [
+      'Designed AI-orchestrated development pipeline using OpenCode with multi-agent fleets (Claude Code, Codex CLI) and complexity-based model routing for task decomposition, PR review, and SOC2-compliant infra provisioning.',
+      'Designed 19-state finite state machine with 40+ transitions governing ticket purchase lifecycle — from booking through settlement — with typed failure routing, guard predicates, and deterministic conflict resolution.',
+      'Built transactional outbox pattern with atomic state+outbox+ledger writes and append-only financial ledger with write-time accounting projections across 24 event types.',
+      'Engineered PCI SAQ-A-EP compliant Stripe integration with PaymentIntents (manual capture), HMAC-verified webhook inbox durability, and polymorphic PaymentStrategy interface.',
+      'Architected full AWS deployment stack (ECS Fargate, RDS PostgreSQL 17, ALB, VPC) using Terraform with 8 modules, GitHub Actions CI/CD with OIDC auth, magic-link auth, and structured observability.',
+    ],
+    tech: [
+      'Java 21',
+      'Spring Boot',
+      'PostgreSQL',
+      'Flyway',
+      'Terraform',
+      'AWS',
+      'GitHub Actions',
+      'Stripe',
+      'SendGrid',
+      'Sentry',
+      'OpenCode',
+      'Claude Code',
+      'Codex CLI',
+      'Gemini',
+    ],
+  },
+  {
     company: 'Razonica',
     role: 'Head Of Engineering',
     period: 'Jul 2025 – Apr 2026',
@@ -210,8 +239,8 @@ export const CONTRACTS = [
 ];
 
 export const HIGHLIGHTS = [
-  'As Head of Engineering at Razonica, I direct engineering across product, AI, and platform, delivering analytics agents and RAG-driven capabilities with zero-downtime releases.',
-  'I deliver high-reliability systems with production-grade observability, specializing in retrieval, forecasting, and automation solutions that connect operations with intelligence.',
-  'Previously at Almabase and Gaames, I led backend modernization, cloud migrations, and architected remittance platforms with fintech-grade security.',
-  'I specialize in Python, Django, PostgreSQL, Redis, and multi-cloud architectures (Azure, AWS, Oracle), focusing on dependable APIs and resilient data pipelines.',
+  'As Lead Software Engineer at ZeroTo1, I design AI-orchestrated development pipelines and build fintech platforms — including a 19-state transactional engine with Stripe integration, append-only ledgers, and Terraform-provisioned AWS infrastructure.',
+  'I deliver high-reliability systems with production-grade observability, specializing in state machines, idempotent APIs, and transactional outbox patterns that ensure exactly-once financial semantics.',
+  'Previously at Razonica, I directed a 5-member team building AI-first decision systems, RAG platforms, and scraper infrastructure with zero-downtime releases.',
+  'I specialize in Python, Java (Spring Boot), PostgreSQL, and multi-cloud architectures (AWS, Azure, Oracle), focusing on dependable APIs, resilient data pipelines, and AI-native engineering workflows.',
 ];

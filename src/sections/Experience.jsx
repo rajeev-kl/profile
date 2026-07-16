@@ -67,11 +67,11 @@ const Experience = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-catppuccin-subtext0 text-base md:text-lg leading-relaxed mb-8">
-            I'm a Senior Backend & DevOps Engineer with 7+ years spent owning
-            mission-critical platforms for venture-backed SaaS, edtech, and
-            fintech teams. I specialise in dependable APIs, reliable data
-            pipelines, and infrastructure that can be iterated on quickly without
-            sacrificing resilience.
+            I'm a Lead Software Engineer with 8+ years building mission-critical
+            platforms across fintech, edtech, and SaaS. I specialise in
+            AI-orchestrated development workflows, dependable APIs, transactional
+            state machines, and infrastructure that can be iterated on quickly
+            without sacrificing resilience.
           </p>
         </OptimizedMotion>
 
