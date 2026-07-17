@@ -41,7 +41,7 @@ const Banner = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <p className="text-catppuccin-subtext0 text-base md:text-lg leading-relaxed max-w-2xl mb-8">
-            6+ years building systems that don't buckle — across edtech, fintech,
+            6+ years building systems that don't buckle - across edtech, fintech,
             and AI. Specializing in Python/Django backends, multi-cloud architecture,
             and automation pipelines that pay for themselves in hours, not months.
             <br />

@@ -2,11 +2,11 @@ export const EXPERIENCE = [
   {
     company: 'ZeroTo1',
     role: 'Lead Software Engineer',
-    period: 'Apr 2026 – Present',
-    description: 'Applied AI for the Mid-Market. Client: FrequentFan — Credit card and loyalty points for sports and entertainment.',
+    period: 'Apr 2026 - Present',
+    description: 'Applied AI for the Mid-Market. Client: FrequentFan - Credit card and loyalty points for sports and entertainment.',
     highlights: [
       'Designed AI-orchestrated development pipeline using OpenCode with multi-agent fleets (Claude Code, Codex CLI) and complexity-based model routing for task decomposition, PR review, and SOC2-compliant infra provisioning.',
-      'Designed 19-state finite state machine with 40+ transitions governing ticket purchase lifecycle — from booking through settlement — with typed failure routing, guard predicates, and deterministic conflict resolution.',
+      'Designed 19-state finite state machine with 40+ transitions governing ticket purchase lifecycle - from booking through settlement - with typed failure routing, guard predicates, and deterministic conflict resolution.',
       'Built transactional outbox pattern with atomic state+outbox+ledger writes and append-only financial ledger with write-time accounting projections across 24 event types.',
       'Engineered PCI SAQ-A-EP compliant Stripe integration with PaymentIntents (manual capture), HMAC-verified webhook inbox durability, and polymorphic PaymentStrategy interface.',
       'Architected full AWS deployment stack (ECS Fargate, RDS PostgreSQL 17, ALB, VPC) using Terraform with 8 modules, GitHub Actions CI/CD with OIDC auth, magic-link auth, and structured observability.',
@@ -31,13 +31,13 @@ export const EXPERIENCE = [
   {
     company: 'Razonica',
     role: 'Head Of Engineering',
-    period: 'Jul 2025 – Apr 2026',
+    period: 'Jul 2025 - Apr 2026',
     description:
       'AI growth-hacking platform for enterprise retail and portfolio intelligence.',
     highlights: [
       'Directed a 5-member cross-functional team building AI-first decision systems with pre-commit linting and strict CI/CD.',
-      'Built Bookworm — a multi-tenant RAG platform with React canvas frontend and Django backend, streaming via SSE.',
-      'Designed Fashion Intelligence Engine — aggregating sales/inventory with competitor pricing, AI Design Brief Generator.',
+      'Built Bookworm - a multi-tenant RAG platform with React canvas frontend and Django backend, streaming via SSE.',
+      'Designed Fashion Intelligence Engine - aggregating sales/inventory with competitor pricing, AI Design Brief Generator.',
       'Built Playwright-based scraper pipeline with async queues feeding pgvector-indexed time-series data.',
       'Orchestrated secure multi-host Oracle Cloud environment with Ansible, Nginx, zero-downtime blue/green deployments.',
     ],
@@ -61,7 +61,7 @@ export const EXPERIENCE = [
   {
     company: 'Almabase',
     role: 'Senior Backend Engineer',
-    period: 'Mar 2023 – Apr 2025',
+    period: 'Mar 2023 - Apr 2025',
     description: 'Alumni engagement SaaS for educational institutions.',
     highlights: [
       'Led backend and DevOps modernization initiatives improving reliability across core services.',
@@ -89,7 +89,7 @@ export const EXPERIENCE = [
   {
     company: 'Gaames Merchandising',
     role: 'Senior Backend Engineer',
-    period: 'Dec 2021 – Dec 2022',
+    period: 'Dec 2021 - Dec 2022',
     description: 'Digital wallet management platform.',
     highlights: [
       'Architected fintech-grade wallet platform with eKYC, virtual accounts, and government API integrations.',
@@ -111,7 +111,7 @@ export const EXPERIENCE = [
   {
     company: 'Dukaan',
     role: 'Backend Engineer',
-    period: 'May 2021 – Nov 2021',
+    period: 'May 2021 - Nov 2021',
     description: 'E-commerce platform for online store creation.',
     highlights: [
       'Developed analytics and admin APIs using optimized SQL, indexing, and partitioning in PostgreSQL.',
@@ -122,7 +122,7 @@ export const EXPERIENCE = [
   {
     company: 'Linarc',
     role: 'Backend Engineer',
-    period: 'Nov 2020 – May 2021',
+    period: 'Nov 2020 - May 2021',
     description: 'Project management tool for construction industries.',
     highlights: [
       'Delivered core backend APIs and stabilized QA environments on AWS.',
@@ -133,7 +133,7 @@ export const EXPERIENCE = [
   {
     company: 'Verzeo',
     role: 'Intern',
-    period: 'Jan 2019 – Jun 2019',
+    period: 'Jan 2019 - Jun 2019',
     description: null,
     highlights: [
       'Supported Azure VM provisioning, Nginx setup, bastion/JIT access, Blob Storage, and MySQL operations.',
@@ -143,7 +143,7 @@ export const EXPERIENCE = [
   {
     company: 'Konigtronics',
     role: 'Intern',
-    period: 'Jul 2018 – Dec 2018',
+    period: 'Jul 2018 - Dec 2018',
     description: null,
     highlights: [
       'Integrated microcontrollers and SBCs; built Bluetooth mesh networking prototypes.',
@@ -156,7 +156,7 @@ export const CONTRACTS = [
   {
     company: 'Vivasvana',
     role: 'Backend & Platform Engineer',
-    period: 'Feb 2026 – Mar 2026',
+    period: 'Feb 2026 - Mar 2026',
     description: 'E-commerce platform for nutritional vegan supplements.',
     highlights: [
       'Built modular systems for accounts, products, orders, shipping, and webhook integrations.',
@@ -167,7 +167,7 @@ export const CONTRACTS = [
   {
     company: 'VerifAI',
     role: 'AI & Backend Developer',
-    period: 'Mar 2025 – Jun 2025',
+    period: 'Mar 2025 - Jun 2025',
     description: 'AI Toolkit for API Testing.',
     highlights: [
       'Architected modular Django backend across accounts, forms, integrations, and interfaces.',
@@ -187,10 +187,10 @@ export const CONTRACTS = [
   {
     company: 'Placibo',
     role: 'Technical Trainer',
-    period: 'Jun 2023 – Aug 2026',
+    period: 'Jun 2023 - Aug 2026',
     description: 'Skill training institute.',
     highlights: [
-      'Trained undergraduates in Python web backend development — SQL, Docker, REST APIs, CI/CD, AWS.',
+      'Trained undergraduates in Python web backend development - SQL, Docker, REST APIs, CI/CD, AWS.',
       'Taught Django/DRF: serializers, viewsets, JWT auth, filtering, background tasks, Gunicorn.',
       'Mentored capstone CSAT feedback platform with configurable forms and analytics dashboard.',
     ],
@@ -207,7 +207,7 @@ export const CONTRACTS = [
   {
     company: 'ComBuyn',
     role: 'Backend & Platform Engineer',
-    period: 'May 2021 – Feb 2022',
+    period: 'May 2021 - Feb 2022',
     description: 'Multi-Vendor E-commerce & Service Booking Platform.',
     highlights: [
       'Engineered campaign-driven commerce and slot-based service booking with quantity controls.',
@@ -227,7 +227,7 @@ export const CONTRACTS = [
   {
     company: 'Contriver',
     role: 'Technical Trainer',
-    period: 'Jul 2019 – Sep 2019',
+    period: 'Jul 2019 - Sep 2019',
     description: 'Skill training institute.',
     highlights: [
       'Delivered embedded systems training for undergraduates using ESP8266.',
@@ -239,7 +239,7 @@ export const CONTRACTS = [
 ];
 
 export const HIGHLIGHTS = [
-  'As Lead Software Engineer at ZeroTo1, I design AI-orchestrated development pipelines and build fintech platforms — including a 19-state transactional engine with Stripe integration, append-only ledgers, and Terraform-provisioned AWS infrastructure.',
+  'As Lead Software Engineer at ZeroTo1, I design AI-orchestrated development pipelines and build fintech platforms - including a 19-state transactional engine with Stripe integration, append-only ledgers, and Terraform-provisioned AWS infrastructure.',
   'I deliver high-reliability systems with production-grade observability, specializing in state machines, idempotent APIs, and transactional outbox patterns that ensure exactly-once financial semantics.',
   'Previously at Razonica, I directed a 5-member team building AI-first decision systems, RAG platforms, and scraper infrastructure with zero-downtime releases.',
   'I specialize in Python, Java (Spring Boot), PostgreSQL, and multi-cloud architectures (AWS, Azure, Oracle), focusing on dependable APIs, resilient data pipelines, and AI-native engineering workflows.',

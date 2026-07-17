@@ -25,7 +25,7 @@ const GetInTouch = () => {
             </h2>
             <p className="text-catppuccin-subtext0 text-base md:text-lg leading-relaxed max-w-2xl mx-auto mb-10">
               I'm actively seeking exciting new opportunities to architect the next
-              generation of backend systems! My inbox is wide open — whether you've
+              generation of backend systems! My inbox is wide open - whether you've
               got a challenging project, an amazing opportunity, or want to discuss
               how I can elevate your tech stack, I'm ready to dive in!
             </p>

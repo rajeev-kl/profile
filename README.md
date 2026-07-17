@@ -1,4 +1,4 @@
-# Profile — Rajeev K L
+# Profile - Rajeev K L
 
 Personal portfolio and interactive resume. Built with React, Vite, Tailwind CSS (Catppuccin Mocha), and Framer Motion.
 
@@ -24,4 +24,4 @@ npm run preview      # Preview production build
 
 ## Deployment
 
-Automatic via GitHub Actions — pushes to `master` trigger a build and deploy to GitHub Pages at `https://profile.prodot.in`.
+Automatic via GitHub Actions - pushes to `master` trigger a build and deploy to GitHub Pages at `https://profile.prodot.in`.

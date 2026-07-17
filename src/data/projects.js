@@ -40,9 +40,9 @@ export const PROJECTS = [
     summary: 'Lightweight macOS window manager with dynamic grid layouts and workspace snapshots.',
     highlights: [
       'Dynamic screen-adaptive grid layout with configurable rows (Ripples) and columns (Channels).',
-      'Workspace Snapshots — capture and restore window layouts with one click.',
+      'Workspace Snapshots - capture and restore window layouts with one click.',
       'Global hotkeys for snap, maximize, center/float, and cross-monitor moves.',
-      'Uses macOS AXUIElement accessibility APIs — no private APIs.',
+      'Uses macOS AXUIElement accessibility APIs - no private APIs.',
     ],
     tech: ['Swift', 'macOS', 'Accessibility APIs'],
   },
