@@ -58,7 +58,7 @@ const Experience = () => {
   return (
     <section className="py-12 md:py-20 px-4 md:px-8 lg:px-16">
       <div className="max-w-4xl mx-auto">
-        <SectionHeading accent="ARE YOU SERIOUS ABOUT?" title="MY EXPERIENCE" className="mb-6" />
+        <SectionHeading accent="SERIOUS ABOUT ENGINEERING?" title="MY EXPERIENCE" className="mb-6" />
 
         <OptimizedMotion
           initial={{ opacity: 0, y: 20 }}
@@ -68,9 +68,9 @@ const Experience = () => {
         >
           <p className="text-catppuccin-subtext0 text-base md:text-lg leading-relaxed mb-8">
             I'm a Lead Software Engineer with 6+ years building mission-critical
-            platforms across fintech, edtech, and SaaS. I specialise in
+            platforms across fintech, edtech, and SaaS. I specialize in
             AI-orchestrated development workflows, dependable APIs, transactional
-            state machines, and infrastructure that can be iterated on quickly
+            state machines, and infrastructure that teams can iterate on quickly
             without sacrificing resilience.
           </p>
         </OptimizedMotion>
@@ -123,7 +123,7 @@ const Experience = () => {
         >
           <h3 className="text-catppuccin-text font-semibold text-xl mb-6">
             <Briefcase size={20} className="inline mr-2 text-catppuccin-mauve" />
-            Contracts & Freelance
+            Contracts & Freelance Work
           </h3>
         </OptimizedMotion>
 

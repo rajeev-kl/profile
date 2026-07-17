@@ -31,10 +31,10 @@ export const SKILLS = [
   { name: 'Google Gemini', category: 'ai' },
 ];
 
-export const OVERVIEW = `A Lead Software Engineer & Platform Architect who helps product teams launch dependable AI-native platforms across fintech, edtech, and SaaS. I blend Java (Spring Boot) and Python (Django/DRF) with modern data stores-PostgreSQL, Redis, Elasticsearch-and deploy them across AWS, Azure, and Oracle Cloud with an eye on observability and zero-downtime releases.
+export const OVERVIEW = `A Lead Software Engineer & Platform Architect who helps product teams launch dependable AI-native platforms across fintech, edtech, and SaaS. I blend Java (Spring Boot) and Python (Django/DRF) with modern data stores such as PostgreSQL, Redis, and Elasticsearch, and deploy them across AWS, Azure, and Oracle Cloud with an eye on observability and zero-downtime releases.
 
-My playbook mixes systems thinking with AI-driven automation: multi-agent orchestration pipelines, transactional outbox engines, and state machine architectures that enforce correctness at scale. The goal is always the same-give engineers clear guardrails and give end users a fast, predictable experience.
+My playbook mixes systems thinking with AI-driven automation: multi-agent orchestration pipelines, transactional outbox engines, and state machine architectures that enforce correctness at scale. The goal is always the same: give engineers clear guardrails and give end users a fast, predictable experience.
 
-Lately I've been building AI-orchestrated development workflows where manager agents decompose requirements and delegate to specialized subagent fleets, with complexity-based model routing from simple fixes to critical architecture decisions.`;
+Lately, I've been building AI-orchestrated development workflows where manager agents decompose requirements and delegate to specialized subagent fleets, with complexity-based model routing from simple fixes to critical architecture decisions.`;
 
 export const BANNER_TAGLINE = `Lead Software Engineer who transforms complex business challenges into bulletproof, AI-native systems. I've engineered fintech platforms with 19-state transactional engines, built multi-agent development pipelines, and orchestrated seamless cloud migrations across AWS, Azure, and Oracle.`;

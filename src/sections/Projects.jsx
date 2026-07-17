@@ -59,7 +59,7 @@ const Projects = () => {
         <p className="text-catppuccin-subtext0 text-base md:text-lg leading-relaxed mb-10 max-w-3xl">
           I partner with founders and product teams to deliver dependable backends,
           AI copilots, and deployment automation. Each engagement here shipped to
-          production - balancing data modeling, systems design, and hands-on Cloud/CI
+          production, balancing data modeling, systems design, and hands-on cloud/CI
           plumbing to unlock customer wins fast.
         </p>
       </OptimizedMotion>

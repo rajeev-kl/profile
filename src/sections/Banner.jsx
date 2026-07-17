@@ -25,9 +25,9 @@ const Banner = () => {
           transition={{ duration: 0.8, delay: 0.15 }}
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-            <span className="stroke-text">Hey, I'm Rajeev</span>
+            <span className="stroke-text">Hey, I'm Rajeev.</span>
             <br />
-            let's turn your
+            Let's turn your
             <br />
             <span className="stroke-text">FRAGILE MONOLITH</span>
             <br />
@@ -41,8 +41,9 @@ const Banner = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
         >
           <p className="text-catppuccin-subtext0 text-base md:text-lg leading-relaxed max-w-2xl mb-8">
-            6+ years building systems that don't buckle - across edtech, fintech,
-            and AI. Specializing in Python/Django backends, multi-cloud architecture,
+            I have 6+ years of experience building systems that don't buckle across
+            edtech, fintech, and AI. I specialize in Python/Django backends,
+            multi-cloud architectures,
             and automation pipelines that pay for themselves in hours, not months.
             <br />
             <br />

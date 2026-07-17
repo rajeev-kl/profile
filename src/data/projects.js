@@ -2,12 +2,12 @@ export const PROJECTS = [
   {
     title: 'SuperDead',
     period: 'Personal Project',
-    summary: 'Native C++20 multiplayer FPS game engine & AI-orchestrated dev pipeline.',
+    summary: 'Native C++20 multiplayer FPS game engine and AI-orchestrated development pipeline.',
     highlights: [
       'Engineered client-server multiplayer shooter over UDP (ENet) with client-side prediction and server reconciliation.',
       'Integrated server-authoritative Jolt Physics for player capsules, dynamic stances, wall-running, and ledge climbing.',
       'Programmed PBR shader pipeline (Albedo/Normal/ORM) and GLSL post-processing (FXAA, Bloom, soft shadows).',
-      'Used multi-agent LLM framework with MCP servers for self-healing code edits.',
+      'Used a multi-agent LLM framework with MCP servers for self-healing code edits.',
     ],
     tech: ['C++20', 'ENet', 'Jolt Physics', 'GLSL', 'Raylib'],
   },
@@ -27,10 +27,10 @@ export const PROJECTS = [
     period: 'Personal Project',
     summary: 'Alembic-free migration tool for SQLModel with a Django-style CLI.',
     highlights: [
-      'Auto-detects model/column create and delete from SQLModel metadata diffs.',
+      'Auto-detects model and column creation and deletion from SQLModel metadata diffs.',
       'Generates Python migration files with forward and rollback support.',
       'Tracks migration progress in a database table with per-operation status.',
-      'Django-style CLI: makemigrations, migrate, showmigrations.',
+      'Exposes a Django-style CLI: makemigrations, migrate, showmigrations.',
     ],
     tech: ['Python', 'SQLModel', 'SQLAlchemy', 'Poetry', 'CLI'],
   },
@@ -40,7 +40,7 @@ export const PROJECTS = [
     summary: 'Lightweight macOS window manager with dynamic grid layouts and workspace snapshots.',
     highlights: [
       'Dynamic screen-adaptive grid layout with configurable rows (Ripples) and columns (Channels).',
-      'Workspace Snapshots - capture and restore window layouts with one click.',
+      'Workspace snapshots capture and restore window layouts with one click.',
       'Global hotkeys for snap, maximize, center/float, and cross-monitor moves.',
       'Uses macOS AXUIElement accessibility APIs - no private APIs.',
     ],
@@ -53,7 +53,7 @@ export const PROJECTS = [
     highlights: [
       'REST API (POST /send-sms/) with API key authentication and hashed key storage.',
       'AT-command modem control with configurable timeouts and port settings.',
-      'SQLite-based logging of all send attempts for audit and debugging.',
+      'SQLite-based logging of all send attempts for auditing and debugging.',
       'Poetry-managed Python project with systemd service integration for production.',
     ],
     tech: ['Python', 'FastAPI', 'Raspberry Pi', 'SQLite', 'AT Commands', 'systemd'],
