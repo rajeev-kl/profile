@@ -67,7 +67,7 @@ const Experience = () => {
           transition={{ duration: 0.6 }}
         >
           <p className="text-catppuccin-subtext0 text-base md:text-lg leading-relaxed mb-8">
-            I'm a Lead Software Engineer with 8+ years building mission-critical
+            I'm a Lead Software Engineer with 6+ years building mission-critical
             platforms across fintech, edtech, and SaaS. I specialise in
             AI-orchestrated development workflows, dependable APIs, transactional
             state machines, and infrastructure that can be iterated on quickly
