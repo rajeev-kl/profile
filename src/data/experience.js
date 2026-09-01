@@ -30,12 +30,12 @@ export const EXPERIENCE = [
   },
   {
     company: 'Razonica',
-    role: 'Head of Engineering',
+    role: 'CoFounder',
     period: 'Jul 2025 - Apr 2026',
     description:
       'AI growth-hacking platform for enterprise retail and portfolio intelligence.',
     highlights: [
-      'Directed a 5-member cross-functional team building AI-first decision systems with pre-commit linting and strict CI/CD.',
+      'Directed cross-functional team building AI-first decision systems with pre-commit linting and strict CI/CD.',
       'Built Bookworm - a multi-tenant RAG platform with React canvas frontend and Django backend, streaming via SSE.',
       'Designed the Fashion Intelligence Engine, aggregating sales and inventory data with competitor pricing and powering an AI Design Brief Generator.',
       'Built Playwright-based scraper pipeline with async queues feeding pgvector-indexed time-series data.',
